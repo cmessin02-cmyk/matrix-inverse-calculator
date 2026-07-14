@@ -6,12 +6,12 @@ This repository contains an interactive C console application that calculates th
 
 ## Mathematical Model
 
-An inverse of a square matrix $A$ exists if and only if its determinant ($\det(A)$) is non-zero. The inverse is calculated using:
+An inverse of a square matrix A exists if and only if its determinant det(A) is non-zero. The inverse is calculated using:
 
 $$A^{-1} = \frac{1}{\det(A)} \cdot \text{adj}(A)$$
 
 ### 1. $2 \times 2$ Matrix Formula
-For a matrix $A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$:
+For a matrix A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}
 
 $$\det(A) = ad - bc$$
 
