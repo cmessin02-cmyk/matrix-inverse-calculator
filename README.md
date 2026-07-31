@@ -6,23 +6,28 @@ This repository contains an interactive C console application that calculates th
 
 ## Mathematical Model
 
-An inverse of a square matrix A exists if and only if its determinant det(A) is non-zero. The inverse is calculated using:
+An inverse of a square matrix $A$ exists if and only if its determinant $\det(A)$ is non-zero. The inverse is calculated using:
 
 $$A^{-1} = \frac{1}{\det(A)} \cdot \text{adj}(A)$$
 
 ### 1. $2 \times 2$ Matrix Formula
-For a matrix A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}
+For a matrix $A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$:
 
 $$\det(A) = ad - bc$$
 
 $$A^{-1} = \frac{1}{ad - bc} \begin{pmatrix} d & -b \\ -c & a \end{pmatrix}$$
 
 ### 2. $3 \times 3$ Matrix Formula
-For a matrix $A = \begin{pmatrix} a & b & c \\ d & e & f \\ g & h & i \end{pmatrix}$:
+For a matrix $A$:
+
+$$
+A = \begin{pmatrix} a & b & c \\ d & e & f \\ g & h & i \end{pmatrix}
+$$
 
 $$\det(A) = a(ei - fh) - b(di - fg) + c(dh - eg)$$
 
 The elements of the inverse matrix are computed using the transpose of the cofactor matrix (adjugate matrix) scaled by $1/\det(A)$.
+ 
 
 ## Execution Process
 
