@@ -11,7 +11,7 @@ An inverse of a square matrix $A$ exists if and only if its determinant $\det(A)
 $$A^{-1} = \frac{1}{\det(A)} \cdot \text{adj}(A)$$
 
 ### 1. $2 \times 2$ Matrix Formula
-For a matrix $A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$:
+For a matrix A = (a  b) \\ (c  d) 
 
 $$\det(A) = ad - bc$$
 
